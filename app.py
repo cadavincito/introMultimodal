@@ -28,6 +28,9 @@ with col2:
     st.write("la audicion es fundamental para la ui")
   if modo == "tactil":
     st.write("el tacto es fundamental para la ui")
+
+with st.sidebar:
+  st.subheader("configura la modalidad")
   
   
   
