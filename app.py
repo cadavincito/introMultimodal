@@ -10,6 +10,7 @@ image = Image.open("julepe.jpg")
 texto = st.text_input("escribe algo","este es mi texto")
 
 st.write("el texto escrito es",texto)
+col1, col2 = st.columns(2)
 
 with col1:
   st.subheader("columna 1")
